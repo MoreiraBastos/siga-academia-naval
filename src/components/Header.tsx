@@ -9,6 +9,9 @@ export default function Header() {
           <Link href="/" className="hover:text-gray-300 transition-colors duration-200 cursor-pointer">
             Academia Naval
           </Link>
+          <Link href="/login" className="font-bold text-lg hover:text-gray-300 transition-colors duration-200 relative after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+            SIGA
+          </Link>
           <Link href="/contactos" className="hover:text-gray-300 transition-colors duration-200 relative after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 hover:after:w-full">
             Contactos
           </Link>
